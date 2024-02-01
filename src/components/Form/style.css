@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #052b53;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c60a8;
+}
+
+.classificacao {
+    padding:8px ;
+    text-align: center;
+    margin: 10px auto;
+    
+    border-top:solid #aaafb4 1px;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 16px;    
+}
+
+.resultado p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.resultadoSelect {
+    outline:solid #052b53 1px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding:8px ;
+}
+
